@@ -1,0 +1,2 @@
+# Redundant Updates with Firebase on() Method
+This repository demonstrates an issue where the Firebase Realtime Database's `on()` method is used incorrectly, causing redundant updates and potentially impacting performance.  The provided solution demonstrates how to use `once()` for a single data retrieval or `off()` to detach listeners when no longer needed.
